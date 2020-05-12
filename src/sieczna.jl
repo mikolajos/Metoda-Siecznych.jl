@@ -1,5 +1,7 @@
 module sieczna
 
+"Funkcja ma zazadanie znajdywanie minimalnego punktu za pomocą metody siecznych"
+
 function secant(f::Function,pzero,pone,eps,N)
 		n=1
 		p=0.
