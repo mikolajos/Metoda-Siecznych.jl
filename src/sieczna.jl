@@ -15,7 +15,7 @@ function secant(f::Function,pzero,pone,eps,N)
 			n=n+1
 		end
 		y=f(p)
-		println("Nie udało się. Ostatnia iteracja dala nam $p z y=")
+		println("Nie udało się. Ostatnia iteracja dala nam $p z y= $y")
 	end
 export secant
 
